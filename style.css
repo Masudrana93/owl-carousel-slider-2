@@ -33,17 +33,40 @@
 .owl-nav .owl-next{
     position: absolute;
     top: calc(50% - 25px);
-    right: 0;
+    right: 250px;
     opacity: 1;
-    font-size: 30px !important;
+    font-size: 50px !important;
     z-index: 1;
 }
 
 .owl-nav .owl-prev{
     position: absolute;
     top: calc(50% - 25px);
-    left: 0;
+    left:250px;
     opacity: 1;
-    font-size: 30px !important;
+    font-size: 50px !important;
     z-index: 1;
+    
+}
+
+/* .owl-nav .owl-prev:hover{
+    background-color: green !important;
+    border-radius: 50px;
+} */
+
+.bg-angle-icon{
+    width: 70px;
+    height: 70px;
+    background: rgba(206, 191, 191, 0.50);
+    color:rgba(206, 191, 191, 0.50) ;
+    border-radius: 50px;
+    
+    
+}
+
+.bg-angle-icon:hover{
+    background: white;
+    color: black;
+    
+
 }
