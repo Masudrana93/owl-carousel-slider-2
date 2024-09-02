@@ -32,7 +32,7 @@
 }
 .owl-nav .owl-next{
     position: absolute;
-    top: calc(50% - 25px);
+    top: calc(50% - 50px);
     right: 250px;
     opacity: 1;
     font-size: 50px !important;
@@ -41,7 +41,7 @@
 
 .owl-nav .owl-prev{
     position: absolute;
-    top: calc(50% - 25px);
+    top: calc(50% - 50px);
     left:250px;
     opacity: 1;
     font-size: 50px !important;
@@ -49,24 +49,27 @@
     
 }
 
-/* .owl-nav .owl-prev:hover{
-    background-color: green !important;
-    border-radius: 50px;
-} */
-
-.bg-angle-icon{
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    background: rgba(180, 180, 180, 0.6) !important;
+    color: rgba(180, 180, 180, 0.8) !important;
     width: 70px;
     height: 70px;
-    background: rgba(206, 191, 191, 0.50);
-    color:rgba(206, 191, 191, 0.50) ;
-    border-radius: 50px;
-    
-    
+    border-radius: 50px !important;
 }
 
-.bg-angle-icon:hover{
-    background: white;
-    color: black;
-    
-
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: white !important;
+    color: rgba(180, 180, 180, 0.8) !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px !important;
+    transition: all 0.3s !important;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: white !important;
+    color: rgba(180, 180, 180, 0.8) !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px !important;
+    transition: all 0.3s !important;
 }
